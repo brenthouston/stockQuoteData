@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> button,input, input::placeholder{
+        font: 1.25rem/3 sans-serif;
+    }</style>
+    <title>StockQuote</title>
+</head>
+
+<body style="width: 100%; display: flex; justify-content: center; flex-direction: column; margin-left: 50px; margin-right: 50px;">
+    <h2 style="display: flex; align-self: center; font-size: 3rem; font-family:Arial, Helvetica, sans-serif; margin: 5px">Stock Quote Data</h2>
+    <form id="form" style="display:flex; justify-content: center; align-items: center;">
+        <input type="text" id="ticker" placeholder="Enter ticker symbol" style="height: 3.5rem; background-color: rgb(243, 239, 239); border-radius: 5px; margin:5px;">
+        <button type="submit" style="padding:0px 10px 0 10px; border-style: none;  color: white; background-color: rgb(44, 44, 69); border-radius: 5px; margin:5px;">Get Stock Info</button>
+      </form>
+    <h2 id="name" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></h2>
+    <p id="price" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+    <p id="day_high" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+    <p id="day_low" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+    <p id="day_change" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+    <p id="previous_close_price" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+    <p id="volume" style="font-size: 3rem; border: 20px solid rgba(0, 255, 72, 0.416); color:white; background-color: black; display: flex; justify-content: center; width:60rem; align-self: center;margin: 20px"></p>
+</body>
+    <script src="index.js">
+
+</script>
+</html>
